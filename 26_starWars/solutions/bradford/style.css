@@ -1,0 +1,75 @@
+.background {
+  position: relative;
+  background-color: #1A1A1A;
+  width: 600px;
+  height: 900px;
+}
+
+.Triangle1 {
+  width: 0;
+	height: 0;
+	border-right: 300px solid #404040;
+	border-bottom: 300px solid transparent;
+}
+
+.Triangle2 {
+  width: 0;
+	height: 0;
+	border-left: 300px solid #999999;
+	border-bottom: 300px solid transparent;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.bigCircle1 {
+  position: absolute;
+  width: 125px;
+  height: 250px;
+  border-bottom-right-radius: 125px 125px;
+  border-top-right-radius: 125px 125px;
+  background-color: #999999;
+  left: 300px;
+  top: 400px;
+}
+
+.bigCircle2 {
+  position: absolute;
+  width: 125px;
+  height: 250px;
+  border-bottom-left-radius: 125px 125px;
+  border-top-left-radius: 125px 125px;
+  background-color: #404040;
+  left: 175px;
+  top: 400px;
+}
+
+.smallCircle1 {
+  position: absolute;
+  width: 35px;
+  height: 70px;
+  border-bottom-right-radius: 35px 35px;
+  border-top-right-radius: 35px 35px;
+  background-color: #404040;
+  top: 150px;
+}
+
+.smallCircle2 {
+  position: absolute;
+  width: 35px;
+  height: 70px;
+  border-bottom-left-radius: 35px 35px;
+  border-top-left-radius: 35px 35px;
+  background-color: #1A1A1A;
+  right: 0px;
+  top: 150px;
+}
+
+p {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  left: 235px;
+  bottom: 30px;
+  font-size: 20px;
+}

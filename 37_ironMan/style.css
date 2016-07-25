@@ -1,0 +1,32 @@
+body {
+  box-sizing: border-box;
+  background-color: #8b0000;
+  color: white;
+  font-family: 'BenchNine', sans-serif;
+  height: 100vw
+  width: 120vw;
+}
+
+header {
+  margin-top: 6rem;
+  margin-left: 6rem;
+}
+
+header h1 {
+  font-size: 3.2rem;
+  margin-bottom: 0rem;
+}
+
+header p {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+div {
+  border-radius: 50%;
+  background-color: white;
+  height: 27rem;
+  width: 27rem;
+  margin: auto;
+  margin-top: 37%;
+}
